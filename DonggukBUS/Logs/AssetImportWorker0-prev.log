@@ -1,0 +1,667 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'ko' Physical Memory: 8047 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/tlfqj/Documents/GitHub/metaverse-unity/DonggukBUS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60054
+Successfully changed project path to: C:/Users/tlfqj/Documents/GitHub/metaverse-unity/DonggukBUS
+C:/Users/tlfqj/Documents/GitHub/metaverse-unity/DonggukBUS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 330.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tlfqj/Documents/GitHub/metaverse-unity/DonggukBUS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
+    Vendor:   
+    VRAM:     1983 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008954 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 190.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3290ms)
+		BeginReloadAssembly (247ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1130ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (191ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.112517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 187.94 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3514ms)
+		BeginReloadAssembly (581ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2786ms)
+			LoadAssemblies (473ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (760ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (165ms)
+			SetupLoadedEditorAssemblies (1162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (188ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (645ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3924 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.3 MB.
+System memory in use after: 147.5 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4358.
+Total: 9.014700 ms (FindLiveObjects: 1.438900 ms CreateObjectMapping: 0.888200 ms MarkObjects: 6.548400 ms  DeleteObjects: 0.134300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/0Scenes/3)MainScene.unity
+  artifactKey: Guid(68bd9cff224bb074e9920afd1c949a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Scenes/3)MainScene.unity using Guid(68bd9cff224bb074e9920afd1c949a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782422639234e15c801a721a296f23bc') in 0.066013 seconds 
+  Import took 0.076642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 970.656443 seconds.
+  path: Assets/0Scenes/1)LoginScene.unity
+  artifactKey: Guid(81bcceb93cc05a142bcd3de275908137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Scenes/1)LoginScene.unity using Guid(81bcceb93cc05a142bcd3de275908137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7ab8f8a47f401b65535bf5044ad6b6') in 0.034058 seconds 
+  Import took 0.057825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.934169 seconds.
+  path: Assets/0Scenes/3)MainScene.unity
+  artifactKey: Guid(68bd9cff224bb074e9920afd1c949a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0Scenes/3)MainScene.unity using Guid(68bd9cff224bb074e9920afd1c949a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3808c283d3005a9b39fe26f7ef6faa') in 0.025022 seconds 
+  Import took 0.048891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 753.716705 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Flat.psd
+  artifactKey: Guid(6032fec9cfb93ec479cebc2a3190fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Flat.psd using Guid(6032fec9cfb93ec479cebc2a3190fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc847e43d8645146288f25b82b6c29c') in 0.349776 seconds 
+  Import took 0.368672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000842 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/Window.png
+  artifactKey: Guid(d6e9ff215226845468a86021fa3f7901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/Window.png using Guid(d6e9ff215226845468a86021fa3f7901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cde488058cc4ae494cdd79cb2028943') in 0.265756 seconds 
+  Import took 0.280321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Window.psd
+  artifactKey: Guid(56f0487aa75c16442b6a6997355c3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Window.psd using Guid(56f0487aa75c16442b6a6997355c3bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe6cb57228a1816557fc32591a246ca') in 0.077553 seconds 
+  Import took 0.097106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/WindowBackground.png
+  artifactKey: Guid(f834413531a709c4f9a4714b418dc7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/WindowBackground.png using Guid(f834413531a709c4f9a4714b418dc7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e4c716b48b89a25b6957ebaec9bc66') in 0.151598 seconds 
+  Import took 0.181646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000963 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ScrollButtonHeld.png
+  artifactKey: Guid(8250ba99aa6d5ad4f837a7bea00ad3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ScrollButtonHeld.png using Guid(8250ba99aa6d5ad4f837a7bea00ad3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001734754d0a7cba0c5db1c525f5d42e') in 0.104641 seconds 
+  Import took 0.126724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF Button.psd
+  artifactKey: Guid(9a32a6cc2cb803443983d45d4a513506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF Button.psd using Guid(9a32a6cc2cb803443983d45d4a513506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f2589790b393cb08ed59a89d5e76ab') in 0.100256 seconds 
+  Import took 0.117827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000902 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/toHub.png
+  artifactKey: Guid(9587663c4d27e47b19a118aabaac4a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/toHub.png using Guid(9587663c4d27e47b19a118aabaac4a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063b10b06c4f3135c0e625a3e4bcb7e1') in 0.086711 seconds 
+  Import took 0.099525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF Title.psd
+  artifactKey: Guid(966be606197166640a108ef53355eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF Title.psd using Guid(966be606197166640a108ef53355eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89ccdb67604c84b0ff25f35cb1203b7') in 0.114097 seconds 
+  Import took 0.130188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000747 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Button.psd
+  artifactKey: Guid(9f2cdc43fe2d20e42812c545cb67b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Button.psd using Guid(9f2cdc43fe2d20e42812c545cb67b99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947496209497ae5af4ed621c09585e14') in 0.094274 seconds 
+  Import took 0.121037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001101 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Panel Background.png
+  artifactKey: Guid(738a30cc0b59b154b81d0dd9a11423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Panel Background.png using Guid(738a30cc0b59b154b81d0dd9a11423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ec7d17b73111fb00f66b1ae43624ae') in 0.099660 seconds 
+  Import took 0.117673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000649 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBackground.png
+  artifactKey: Guid(7e6dd32f861d2d843bc4acabdb2f6df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBackground.png using Guid(7e6dd32f861d2d843bc4acabdb2f6df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8d7a2aada806e2c2771c87cfcd74db') in 0.097995 seconds 
+  Import took 0.122565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/VN/JRPG 1 Panel Sprite.png
+  artifactKey: Guid(55c2ba421d9a0854d9fb61f3b7fa3f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/VN/JRPG 1 Panel Sprite.png using Guid(55c2ba421d9a0854d9fb61f3b7fa3f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd5725630ff5b796a2178a938e59b00') in 0.096891 seconds 
+  Import took 0.111609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Check Mark.psd
+  artifactKey: Guid(23dc4f9bfdcb0984995e1a58909e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Check Mark.psd using Guid(23dc4f9bfdcb0984995e1a58909e85d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa9186b6c446ab4b9a9906211be2aef') in 0.084216 seconds 
+  Import took 0.103484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001432 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png
+  artifactKey: Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png using Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4c46d6ff5519d696051e06541ea07d') in 0.115073 seconds 
+  Import took 0.149301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000626 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png
+  artifactKey: Guid(436c5e63723127948af8857e903f658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp32.png using Guid(436c5e63723127948af8857e903f658a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11d65fcc896cc6bd99b17d1cee07cc3') in 0.155338 seconds 
+  Import took 0.172617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/SMS/SMS Bubble Flipped.png
+  artifactKey: Guid(0acb8ceeef876a74aab8325fe84c13d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/SMS/SMS Bubble Flipped.png using Guid(0acb8ceeef876a74aab8325fe84c13d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ead2b842dfe72742bd0d620a13ef5ca') in 0.126934 seconds 
+  Import took 0.148339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000896 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/header_splice.png
+  artifactKey: Guid(d7ba33f6180e243448f102d3a55d22fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/header_splice.png using Guid(d7ba33f6180e243448f102d3a55d22fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48364d9bf371d9754c249b2916bac3b') in 0.093799 seconds 
+  Import took 0.114289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png
+  artifactKey: Guid(44ebd8e6f42cae445ab4b22f0a9b48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp48.png using Guid(44ebd8e6f42cae445ab4b22f0a9b48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a14ffb8da5e253b912d03ca19fba01') in 0.097533 seconds 
+  Import took 0.125313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000795 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Window Background.png
+  artifactKey: Guid(a550b21819b5b564291269f3ba072ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Window Background.png using Guid(a550b21819b5b564291269f3ba072ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cedc82a10b8232af7cfb71964cb253') in 0.123402 seconds 
+  Import took 0.146244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000918 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/ScrollBar.png
+  artifactKey: Guid(8bd8fed5f979807439a894d9ec3bfa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/ScrollBar.png using Guid(8bd8fed5f979807439a894d9ec3bfa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d6aace36d0bffeb5dc6fe700e5d8ea') in 0.103294 seconds 
+  Import took 0.122331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Selection.psd
+  artifactKey: Guid(754be300c958e2a4d85b275305904feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Selection.psd using Guid(754be300c958e2a4d85b275305904feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7386dfc6927476646f903f586a3d4e19') in 0.118074 seconds 
+  Import took 0.145989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/shaded_butt_pressed.png
+  artifactKey: Guid(7eabf328e5ad3944787e3543af874724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/shaded_butt_pressed.png using Guid(7eabf328e5ad3944787e3543af874724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6244b6d48a8f60b7313cace1cafe0cb') in 0.092883 seconds 
+  Import took 0.113242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png
+  artifactKey: Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png using Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf49ccfb0b2173efbe1bf03966b71c74') in 0.128364 seconds 
+  Import took 0.140517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/FrameSprite.png
+  artifactKey: Guid(0f8644d3c71a5ce4ea81275a5ea0280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/FrameSprite.png using Guid(0f8644d3c71a5ce4ea81275a5ea0280c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5452b9232972cf32fc57dfdc612b79c') in 0.091743 seconds 
+  Import took 0.114043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001073 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/Test Portrait Sprite.png
+  artifactKey: Guid(deeae33315027e045bf104c3f198179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/Test Portrait Sprite.png using Guid(deeae33315027e045bf104c3f198179d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215ae099bd390eaa9b966f7263dcbf9e') in 0.113349 seconds 
+  Import took 0.143721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ScrollButton.png
+  artifactKey: Guid(7eb1f74ad1ec5994aa6ab6604c169cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ScrollButton.png using Guid(7eb1f74ad1ec5994aa6ab6604c169cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a146db9e8469cf3ac7cb23b5b708f4') in 0.093037 seconds 
+  Import took 0.106073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Basic/portrait.png
+  artifactKey: Guid(8fbfa1bc77a0388499f83f32b410eea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Basic/portrait.png using Guid(8fbfa1bc77a0388499f83f32b410eea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3839250db83f1c81bb5fa564e6a6800') in 0.080267 seconds 
+  Import took 0.100881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000742 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/SMS/SMS Bubble.png
+  artifactKey: Guid(33d6870a7a177a843aa49fd3b7a6c7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/SMS/SMS Bubble.png using Guid(33d6870a7a177a843aa49fd3b7a6c7ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c3c9b3b00428e72b5217b8699aeb9f') in 0.077722 seconds 
+  Import took 0.100078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/WindowSprite.png
+  artifactKey: Guid(0e3de6ba89fe6a242bfa146ef8ed525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/WindowSprite.png using Guid(0e3de6ba89fe6a242bfa146ef8ed525f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc26e5a0c07eb3acd07e130bc2469f6') in 0.091668 seconds 
+  Import took 0.113266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png
+  artifactKey: Guid(bd293dc32f4aaf94e8274f2fac2cdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIcon-128.png using Guid(bd293dc32f4aaf94e8274f2fac2cdf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d422ad97ea3568a74fc40ce810a7f90') in 0.099293 seconds 
+  Import took 0.113922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ScrollButtonHighlighted.png
+  artifactKey: Guid(37df733a277b8aa478484d53e57209e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/ScrollButtonHighlighted.png using Guid(37df733a277b8aa478484d53e57209e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a8652c6131daf51e1b80a03f2064dc') in 0.098483 seconds 
+  Import took 0.128378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/shaded_butt.png
+  artifactKey: Guid(5652c3ffb9a08b445bc476c5476bc44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/shaded_butt.png using Guid(5652c3ffb9a08b445bc476c5476bc44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7654834e5f35c2c23472b55b9fe517de') in 0.095531 seconds 
+  Import took 0.114864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000986 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/ScrollButton_3x1.png
+  artifactKey: Guid(ff8f2c6bfc503d848820e5b3d494f4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/ScrollButton_3x1.png using Guid(ff8f2c6bfc503d848820e5b3d494f4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd934a28ce8dc9757187e61c223230a9') in 0.136237 seconds 
+  Import took 0.156256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png
+  artifactKey: Guid(f00feafcf0675cd47a48f83ae42b06d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp128.png using Guid(f00feafcf0675cd47a48f83ae42b06d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2c31a7608e271327cc952562efce90') in 0.113284 seconds 
+  Import took 0.129989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Scroll Bar.png
+  artifactKey: Guid(2974a63dca34fad46b5178afe0bae5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Runic/Scroll Bar.png using Guid(2974a63dca34fad46b5178afe0bae5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0f3a649824718b608a88434d7300a5') in 0.095678 seconds 
+  Import took 0.115959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000832 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF Window.psd
+  artifactKey: Guid(6858abb4516aae344881bf286b3aac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/SF Window.psd using Guid(6858abb4516aae344881bf286b3aac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2517e7dadf69c414e76af7912469e8c5') in 0.098281 seconds 
+  Import took 0.114542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Simple_butt.png
+  artifactKey: Guid(5087a7e3667fc9b4386891b7419cd4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Simple_butt.png using Guid(5087a7e3667fc9b4386891b7419cd4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1eb6451edfc923c12b34cb2f60279d7') in 0.102094 seconds 
+  Import took 0.123101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/WindowFrame.png
+  artifactKey: Guid(bf00944c2f6c305429bd5a28ab01b56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/JRPG/WindowFrame.png using Guid(bf00944c2f6c305429bd5a28ab01b56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a898da3368116602692d2732dd8334') in 0.107451 seconds 
+  Import took 0.126837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000800 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Slider 2.psd
+  artifactKey: Guid(be0cfa11f5f9f84468fd2e4261aec5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Slider 2.psd using Guid(be0cfa11f5f9f84468fd2e4261aec5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb006631c95012d775e7ee162282d8e7') in 0.090356 seconds 
+  Import took 0.106766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Basic/transparent.png
+  artifactKey: Guid(925987cee7ceb6944bc905eb0e753585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Basic/transparent.png using Guid(925987cee7ceb6944bc905eb0e753585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03843685dc727a3b99bb4736d0f8774') in 0.129881 seconds 
+  Import took 0.150600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Nuke/Nuke Button Sprite.png
+  artifactKey: Guid(d3beb7074a81c964b8aeaa539ea63ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Nuke/Nuke Button Sprite.png using Guid(d3beb7074a81c964b8aeaa539ea63ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb00f205fed3f7ad27c5f55190441ee') in 0.081247 seconds 
+  Import took 0.103779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000985 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBar.png
+  artifactKey: Guid(8ae6b3bd2771d7140b1ba50d68a41d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Mobile/PanelBar.png using Guid(8ae6b3bd2771d7140b1ba50d68a41d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3731be3eed9fcdfdec1b50f92b294c7b') in 0.074098 seconds 
+  Import took 0.098185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000835 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Edges.psd
+  artifactKey: Guid(4de85c90bbe61ed4bb3d67de9ab26f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Edges.psd using Guid(4de85c90bbe61ed4bb3d67de9ab26f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2677781feec90e778932d8e2d821bb') in 0.086080 seconds 
+  Import took 0.104898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Nuke/Nuke Panel Sprite.png
+  artifactKey: Guid(d84c891b96aa96f4aab42c18cd7e2d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Nuke/Nuke Panel Sprite.png using Guid(d84c891b96aa96f4aab42c18cd7e2d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ded679eab5f32ed6e500a27354e5a5') in 0.077998 seconds 
+  Import took 0.104342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001571 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Inset.psd
+  artifactKey: Guid(7d3a920c42c6a734fb25908d06ea4728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/UnityUI/Unity - Inset.psd using Guid(7d3a920c42c6a734fb25908d06ea4728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de781da5c8df30a71d63ea9a252c7a62') in 0.098304 seconds 
+  Import took 0.135669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Simple_butt_pressed.png
+  artifactKey: Guid(3259cc77a00ca1c429b3638015f4645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Sci-fi/Simple_butt_pressed.png using Guid(3259cc77a00ca1c429b3638015f4645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f68b3fd6050d4b80345ba38ada7126f') in 0.085177 seconds 
+  Import took 0.101226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.496413 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_pressed.png
+  artifactKey: Guid(fd1b4e8ad597d9b45b14d313eced9cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_pressed.png using Guid(fd1b4e8ad597d9b45b14d313eced9cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00cf98eed2d6f000e367f08f50136ce') in 0.060315 seconds 
+  Import took 0.069122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_hover.png
+  artifactKey: Guid(9bbfcad9b65ee094f9e5d231489d8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_hover.png using Guid(9bbfcad9b65ee094f9e5d231489d8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a02ab048d292e416f0f9c6b8ea8402') in 0.061211 seconds 
+  Import took 0.076940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_normal.png
+  artifactKey: Guid(2b853cc63a87e894e81e0d761413c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_normal.png using Guid(2b853cc63a87e894e81e0d761413c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d0a064fa1448ac93ab23c901eb16b5') in 0.065778 seconds 
+  Import took 0.078928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_normal.png
+  artifactKey: Guid(dd04b2931b2d1114aab1360bfee69ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn6_normal.png using Guid(dd04b2931b2d1114aab1360bfee69ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadefdf15783a84c28c8f140125ba6b2') in 0.057612 seconds 
+  Import took 0.070060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_pressed.png
+  artifactKey: Guid(0bb8c8bd5e2dd7d4e9478eff46948a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_pressed.png using Guid(0bb8c8bd5e2dd7d4e9478eff46948a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b25574474904093e92611f43d56d61') in 0.078298 seconds 
+  Import took 0.090996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000868 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_hover.png
+  artifactKey: Guid(2d95a86b460252f4485e6ea32de747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn5_hover.png using Guid(2d95a86b460252f4485e6ea32de747c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd411fa31b2945282af5b1489ee45f42') in 0.064131 seconds 
+  Import took 0.075609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.543779 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_pressed.png
+  artifactKey: Guid(c4a8ecd265138824cb5ddce16cf07bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_pressed.png using Guid(c4a8ecd265138824cb5ddce16cf07bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad419d5d3f5472144246101e66c4941') in 0.055854 seconds 
+  Import took 0.071010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_hover.png
+  artifactKey: Guid(690f7358743df3f4595ba0342dd86e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_hover.png using Guid(690f7358743df3f4595ba0342dd86e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4750dda437db8d418037c904b35e400') in 0.072122 seconds 
+  Import took 0.082573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000582 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_pressed.png
+  artifactKey: Guid(a558e8c32dbc5bc409d1b7aae6638ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_pressed.png using Guid(a558e8c32dbc5bc409d1b7aae6638ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce031a70b07fe8e1d1223930779ea269') in 0.081956 seconds 
+  Import took 0.098495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_normal.png
+  artifactKey: Guid(12bc9c02daa84f14b980f881d2bf864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_normal.png using Guid(12bc9c02daa84f14b980f881d2bf864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34051a222dff37552c546f8ba8895119') in 0.067190 seconds 
+  Import took 0.093942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000946 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_hover.png
+  artifactKey: Guid(1756a89c663594f4db8dc3b4eaf61fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn4_hover.png using Guid(1756a89c663594f4db8dc3b4eaf61fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6285f34eabfd70b66f9f4f884a3b5af') in 0.067532 seconds 
+  Import took 0.081669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000928 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_pressed.png
+  artifactKey: Guid(afe564cd16103044697441a95757b74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_pressed.png using Guid(afe564cd16103044697441a95757b74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e229c3b28a93c9e925ce134ea3d1678c') in 0.078366 seconds 
+  Import took 0.093113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_normal.png
+  artifactKey: Guid(cfe6b8c2bc51dd84d9c21cd4ff468e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_normal.png using Guid(cfe6b8c2bc51dd84d9c21cd4ff468e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e1560f134ee768e7ba9ffb2cdf2cff') in 0.091033 seconds 
+  Import took 0.109027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000779 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_normal.png
+  artifactKey: Guid(2048119537defaa45a5f7ef29ff78275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_normal.png using Guid(2048119537defaa45a5f7ef29ff78275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558d051c68dc3d2cde5027f2977e454e') in 0.072652 seconds 
+  Import took 0.094440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/border_splice.png
+  artifactKey: Guid(3d3b4b1d32565c944b0452176b513899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/border_splice.png using Guid(3d3b4b1d32565c944b0452176b513899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac7e73ebb3f09431681a57fe544c4bc') in 0.077320 seconds 
+  Import took 0.095068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_normal.png
+  artifactKey: Guid(5e39d47e95de4d4489c51fdb5c19674c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn3_normal.png using Guid(5e39d47e95de4d4489c51fdb5c19674c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b974ee7d7696889457ead19c5546c8f') in 0.067799 seconds 
+  Import took 0.099111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003039 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_hover.png
+  artifactKey: Guid(115ec3b4ca6d7914b9e88be17ab2631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn1_hover.png using Guid(115ec3b4ca6d7914b9e88be17ab2631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19d157860f2d4f732631753c7cadf79') in 0.093815 seconds 
+  Import took 0.116559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002050 seconds.
+  path: Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_hover.png
+  artifactKey: Guid(62f38850a65bd37478f6d3db223d2bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Pixel Crushers/Dialogue System/Prefabs/Art/Textures/Wheel/btn2_hover.png using Guid(62f38850a65bd37478f6d3db223d2bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d84111efd676a2b057ce1aa9682ab48') in 0.081017 seconds 
+  Import took 0.107376 seconds .
+
