@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  # WS
+  # BE
+  backend:
+    container_name: app-metaverse-api
+    build:
+      context: ./metaverse-api/
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+    depends_on:
+      - mysql
+  #
+  mysql:
+    container_name: mysql
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: metaverse
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+    volumes:
+      - ./db/mysql/:/docker-entrypoint-initdb.d
+    command: [ '--character-set-server=utf8mb4', '--collation-server=utf8mb4_unicode_ci' ]
+    ports:
+      - 3307:3306
+  #
+  flyway:
+    container_name: flyway
+    image: flyway/flyway
+    restart: on-failure
+    command: -url=jdbc:mysql://mysql -schemas=metaverse -user=docker -password=docker -connectRetries=60 migrate
+    volumes:
+      - ./metaverse-api/src/main/resources/db:/flyway/sql
+    depends_on:
+      # Run docker-compose up, this will start both Flyway and MySQL.
+      # Flyway will automatically wait for up to one minute for MySQL to be initialized before it begins to migrate the database.
+      - mysql
+
+
